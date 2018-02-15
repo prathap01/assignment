@@ -1,8 +1,7 @@
 #include <stdio.h>
- 
-int main()
+ void fact()
 {
-  int c, n, fact = 1;
+  long int c, n, fact = 1;
  
   printf("Enter a number to calculate its factorial\n");
   scanf("%d", &n);
@@ -12,5 +11,5 @@ int main()
  
   printf("Factorial of %d = %d\n", n, fact);
  
-  return 0;
+ // return 0;
 }

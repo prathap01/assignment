@@ -1,10 +1,9 @@
 /* C Program - Find Largest of Two Numbers */
 		
 #include<stdio.h>
-#include<conio.h>
-void main()
+void big()
 {
-	clrscr();
+//	clrscr();
 	int a, b, big;
 	printf("Enter two number : ");
 	scanf("%d%d",&a,&b);
@@ -16,8 +15,8 @@ void main()
 	{
 		big=b;
 	}
-	printf("Biggest of the two number is %d",big);
-	getch();
+	printf("Biggest of the two number is %d\n",big);
+//	getch();
 }
 
 
