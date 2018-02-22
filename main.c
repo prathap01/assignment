@@ -4,5 +4,6 @@ main()
 {
 big();
 fact();
+rev();
 }
 
